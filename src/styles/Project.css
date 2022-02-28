@@ -1,0 +1,39 @@
+.Project {
+  width: 60vw;
+  height: 20vh;
+  display: flex;
+
+  margin-bottom: 7vh;
+  color: rgb(255, 255, 255);
+}
+
+.Project_link {
+  width: 13%;
+  height: 15vh;
+
+  margin-right: 2vw;
+
+  background-color: rgb(255, 255, 255);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+
+  border-radius: 10%;
+  border-color: rgb(255, 255, 255);
+  border-width: 5px;
+  border-style: solid;
+}
+
+.Project_title {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.Project_content {
+  width: 88%;
+}
+
+.Project_context {
+  margin-top: 2vh;
+  font-size: 1.2em;
+}

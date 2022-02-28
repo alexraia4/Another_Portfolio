@@ -1,0 +1,21 @@
+.Projects {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(59, 59, 59);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Projects_colorBar {
+  height: 90%;
+  width: 2%;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+}
+
+.Projects_projectsBar {
+  height: 90%;
+  width: 70%;
+  /* background-color: rgb(252, 252, 252); */
+}

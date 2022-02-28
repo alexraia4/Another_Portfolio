@@ -1,0 +1,71 @@
+.Introduction {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Introduction_me_card {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 8px;
+  margin-right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.Introduction_me_card_title {
+  margin-bottom: 2%;
+}
+
+.Introduction_me_card_image {
+  margin-bottom: 5%;
+  border-radius: 6px;
+}
+
+.Introduction_links_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6%;
+}
+
+.Introduction_text_link {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 8px;
+  padding: 2%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.Introduction_text_link:hover{
+  background-color: rgb(166, 187, 207);
+  animation-duration: 0.5s;
+  animation-name: titleTextGrow;
+}
+@keyframes titleTextGrow {
+  from {
+    
+    background-color: rgb(255, 255, 255);
+  }
+
+  to {
+    background-color: rgb(166, 187, 207);
+  }
+}
+
+.Introduction_text {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 8px;
+  padding: 2%;
+  width: 40vw;
+  margin-bottom: 6%;
+}
