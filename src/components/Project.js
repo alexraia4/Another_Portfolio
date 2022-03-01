@@ -1,14 +1,12 @@
 import '../styles/Project.css'
 
-function Project(props) {
-
-
+function Project({link, picURL, title, context}) {
       return (
             <div className = "Project">
-                  <a href={`${props.link}`} className = "Project_link" style={{backgroundImage: `url(${props.picURL})`}}/>
+                  <a href={`${link}`} className = "Project_link" style={{backgroundImage: `url(${picURL})`}}/>
                   <div className = "Project_content">
-                        <p className = "Project_title">{props.title}</p>
-                        <p className = "Project_context">{props.context}</p>
+                        <p className = "Project_title">{title}</p>
+                        <p className = "Project_context">{context}</p>
                   </div>
             </div>
       );

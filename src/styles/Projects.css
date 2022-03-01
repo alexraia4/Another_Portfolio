@@ -10,12 +10,22 @@
 .Projects_colorBar {
   height: 90%;
   width: 2%;
-  background-color: blanchedalmond;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.Projects_colorBar_original {
+  height: 5%;
+  width: 10%;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .Projects_projectsBar {
   height: 90%;
   width: 70%;
-  /* background-color: rgb(252, 252, 252); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }

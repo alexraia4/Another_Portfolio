@@ -2,8 +2,6 @@
   width: 60vw;
   height: 20vh;
   display: flex;
-
-  margin-bottom: 7vh;
   color: rgb(255, 255, 255);
 }
 
@@ -25,7 +23,7 @@
 }
 
 .Project_title {
-  font-size: 2em;
+  font-size: 2vw;
   text-decoration: underline;
 }
 
@@ -35,5 +33,5 @@
 
 .Project_context {
   margin-top: 2vh;
-  font-size: 1.2em;
+  font-size: 1.2vw;
 }
