@@ -9,22 +9,22 @@ function Introduction() {
 
   const projectResources = [
     {
-      link: "https://www.google.com/",
+      link: "http://134.209.72.40:3001/",
       picURL: "https://picsum.photos/200",
       title: "Timeline Generator",
       context: "I created an app that lets users store historical data into timelines. Users pick a length of time and it automatically generates the years into a timeline format. Users then add events to each year to track anything from important dates in history to a log of one's personel life moments. Have fun creating multiple timelines!",
     },
     {
-      link: "https://www.google.com/",
+      link: "http://134.209.72.40:3002/",
       picURL: "https://picsum.photos/200",
       title: "Checkers",
       context: "For this application, I worked with a team of 4 using github teams and trello to build a fully functional in-browser checkers game. Using this site, a single checkers game can be played by two users on separate computers. We acomplished this using socketIO which allows users to interact with each other in 'rooms' built automatically on the backend of the aplication.",
     },
     {
-      link: "https://www.google.com/",
+      link: "http://134.209.72.40:3105/",
       picURL: "https://picsum.photos/200",
       title: "Color Splash",
-      context: "Lobsters have long bodies with muscular tails, and live in crevices or burrows on the sea floor. Three of their five pairs of legs have claws, including the first pair, which are usually much larger than the others. Highly prized as seafood, lobsters are economically important, and are often one of the most profitable commodities in coastal areas they populate.",
+      context: "This is a simple React Application I made in order to randomly color your screen based on mouse movement. I was inspired by early days painting software and wanted to make something graphical myself.",
     }
   ]
 

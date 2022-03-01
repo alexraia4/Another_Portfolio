@@ -15,12 +15,13 @@ function Introduction() {
         </div>
         <div className='Introduction_container'>
           <div className='Introduction_links_container'>
-            <p className='Introduction_text_link'>Resume</p>
-            <p className='Introduction_text_link'>LinkedIn</p>
-            <p className='Introduction_text_link'>Github</p>
+            <a href="https://docs.google.com/document/d/1o2CK0zm48t1kXBYujEKx1a52jLxJ2-0F2iRdn_M3xkY/edit?usp=sharing" className="Introduction_text_link">Resumé</a>
+            <a href="https://www.linkedin.com/in/alexander-raia/" className="Introduction_text_link">LinkedIn</a>
+            <a href="https://github.com/alexraia4" className="Introduction_text_link">GitHub</a>
+            
           </div>
           <p className='Introduction_text'>
-            Lobsters have long bodies with muscular tails, and live in crevices or burrows on the sea floor. Three of their five pairs of legs have claws, including the first pair, which are usually much larger than the others. Highly prized as seafood, lobsters are economically important, and are often one of the most profitable commodities in coastal areas they populate.
+            Im a Full-Stack Software Engineer with experience working on all parts of a production application. I just left my last position and am looking for my next adventure. 
           </p>
           <p className='Introduction_text'>
            Scroll Down for some more information.

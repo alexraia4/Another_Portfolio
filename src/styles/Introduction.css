@@ -43,6 +43,8 @@
   display: flex;
   justify-content: center;
   cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
 .Introduction_text_link:hover{
