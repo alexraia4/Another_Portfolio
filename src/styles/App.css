@@ -1,4 +1,5 @@
-.App {
+html {
   font-family: 'Arial', 'sans-serif';
-  font-size: 1.5vw;
+  font-size: calc(14px + 0.2vw);
+  
 }

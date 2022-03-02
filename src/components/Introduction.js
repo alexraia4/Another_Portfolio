@@ -10,7 +10,7 @@ function Introduction() {
           </p>
           <img src={Me} width="300" height="300" className='Introduction_me_card_image'/>
           <p>Web Developer</p>
-          <p>&</p>
+          <p>&amp;</p>
           <p>Software Engineer</p>
         </div>
         <div className='Introduction_container'>

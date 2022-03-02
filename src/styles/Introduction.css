@@ -8,7 +8,7 @@
 }
 
 .Introduction_me_card {
-  background-color: rgb(195, 248, 182);
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 8px;
   margin-right: 10%;
@@ -25,6 +25,13 @@
 
 .Introduction_me_card_image {
   margin-bottom: 5%;
+}
+
+.Introduction_container {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .Introduction_links_container {
@@ -44,11 +51,13 @@
   cursor: pointer;
   text-decoration: none;
   color: black;
+  transition: background-color 0.7s;
 }
 
 .Introduction_text_link:hover{
   background-color: rgb(166, 187, 207);
-  animation-duration: 0.5s;
+}
+  /* animation-duration: 0.5s;
   animation-name: titleTextGrow;
 }
 @keyframes titleTextGrow {
@@ -60,13 +69,14 @@
   to {
     background-color: rgb(166, 187, 207);
   }
-}
+} */
 
 .Introduction_text {
   background-color: rgb(255, 255, 255);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 8px;
-  padding: 2%;
+  padding: 2rem;
   width: 40vw;
   margin-bottom: 6%;
+  line-height: 1.5;
 }
