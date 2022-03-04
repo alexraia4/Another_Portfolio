@@ -1,55 +1,103 @@
 .Introduction {
+  background-color: rgb(22, 22, 22);
   height: 100vh;
-  background-color: #1f2029;
-  color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+}
+
+.Introduction_image {
+  height: 20vw;
+  width: 18vw;
+  border-radius: 12px;
+  border-color: rgb(255, 255, 255);
+  border-width: 4px;
+  border-style: solid;
 }
 
 .Introduction_bar {
-  margin-top: 10%;
-  height: 100vh;
+  width: 90vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
 }
 
-.Introduction_bar_image {
-  height: 40vh;
-  width: 60vw;
-  border-radius: 12px;
+.Introduction_bar_text {
+  color: rgb(255, 255, 255);
 }
 
-.Introduction_bar_name {
-  font-size: 10vw;
-  margin-top: 3vh;
+.Introduction_bar_text_name {
+  font-size: 6vw;
+  margin-bottom: 3vh;
 }
 
-.Introduction_bar_title {
-  font-size: 5vw;
-  margin-top: 3vh;
+.Introduction_bar_text_title {
+  font-size: 2vw;
   margin-bottom: 5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.Introduction_bar_resume {
+.Introduction_bar_text_resume {
   text-decoration: none;
-  background-color: #ee6414;
-  color: #ffffff;
-  border-radius: 10px;
-  padding: 5%
+  font-size: 2vw;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 133, 52);
+  padding: 1vw;
+  border-radius: 12vw;
 }
 
 .Introduction_bar_logos {
-  margin-top: 7vh;
-  width: 80vw;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .Introduction_bar_logos_logo {
-  height: 5vh;
+  height: 4vw;
+  width: 5vw
+}
+
+@media only screen and (max-width: 500px) {
+  .Introduction {
+    justify-content:flex-start
+  }
+
+  .Introduction_image {
+    margin-top: 10vh;
+    height: 30vh;
+    width: 50vw;
+    margin-bottom: 15vh;
+  }
+
+  .Introduction_bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Introduction_bar_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Introduction_bar_text_name {
+    font-size: 10vw;
+  }
+
+  .Introduction_bar_text_title {
+    font-size: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2vh;
+  }
+
+  .Introduction_bar_text_resume {
+    font-size: 3vw;
+    margin-bottom: 4vh;
+  }
+
+  .Introduction_bar_logos {
+    width: 30vw;
+    flex-direction: row;
+  }
 }
