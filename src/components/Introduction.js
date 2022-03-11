@@ -1,5 +1,4 @@
 import '../styles/Introduction.css';
-import Me from '../images/me.jpg';
 import LinkedInLogo from '../images/linkedIn.png';
 import gitHubLogo from '../images/gitHub.png'
 import envelope from '../images/envelope.png'
@@ -7,7 +6,6 @@ import envelope from '../images/envelope.png'
 function Introduction() {
   return (
     <div className="Introduction">
-      <img src={Me} alt="This is me" className="Introduction_image"/>
       <div className="Introduction_bar">
         <div className="Introduction_bar_text">
           <h1 className='Introduction_bar_text_name'>Alexander Raia</h1>

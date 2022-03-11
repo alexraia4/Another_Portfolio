@@ -1,0 +1,40 @@
+.AboutMe {
+  background-color: rgb(250, 249, 240);
+  position: relative;
+  padding: 3%;
+}
+
+.AboutMe_image {
+  height: 20vw;
+  width: 18vw;
+  border-radius: 12px;
+  position: absolute;
+  top: 30%;
+  left: 70%;
+}
+
+.AboutMe_title {
+  padding: 5% 0% 3% 0%;
+  font-weight: 800;
+  font-size: 4vw;
+}
+
+.AboutMe_text_paper {
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 2%;
+  margin-bottom: 3vh;
+}
+
+.AboutMe_text_paper_life {
+  padding-bottom: 2%;
+  font-weight: 800;
+  font-size: 1.5vw;
+}
+
+.AboutMe_text_paper_desc {
+  font-size: 1.2vw;
+  padding-bottom: 4%;
+  line-height: 1.6;
+}
