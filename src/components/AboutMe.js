@@ -12,7 +12,7 @@ function AboutMe() {
       </div>
       <div className="AboutMe_text_paper">
         <p className="AboutMe_text_paper_life">Home Life</p>
-        <p className="AboutMe_text_paper_desc">I'm originally from Long Island New York where I grew up playing hacky sack and skateboarding around NYC. I've since moved to Utah and love it so far. The mountains are amazing and I've been getting into snowboarding. In my spare time, I like to keep on top of technologies that I haven't had the opportunity to use yet. I believe it's important to stay updated on the tech world and see how I can implement what I learned for my next project.</p>
+        <p className="AboutMe_text_paper_desc">I'm originally from Long Island, New York where I grew up playing hacky sack and skateboarding around NYC. I've since moved to Utah and love it. The mountains are amazing and I've been getting into snowboarding. In my spare time, I like to keep on top of technologies that I haven't had the opportunity to use yet. I believe it's important to stay updated on the tech world and see how I can implement what I learned for my next project.</p>
       </div>
     </div>
   );
