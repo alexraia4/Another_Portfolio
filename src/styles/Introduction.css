@@ -1,5 +1,5 @@
 .Introduction {
-  background-color: rgb(41, 40, 40);
+  background-color: rgb(26, 25, 25);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,6 @@
 }
 
 .Introduction_bar_text_title_amp {
-  margin-left: 6vw;
 }
 
 .Introduction_bar_text_resume {
